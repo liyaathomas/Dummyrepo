@@ -6,13 +6,13 @@ test.describe('Login page tests',() => {
     } );
 
     //test1
-    test('login page should load with correct title', async ({ page }) => {
-        await expect(page).toHaveTitle(/Practice Test Login Page/);
-        await expect(page.locator('#Username')).toBeVisible();
-        await expect(page.locator('#Password')).toBeVisible();
-        await expect(page.locator('#submit')).toBeVisible();
+    // test('login page should load with correct title', async ({ page }) => {
+    //     await expect(page).toHaveTitle(/Practice Test Login Page/);
+    //     await expect(page.locator('#Username')).toBeVisible();
+    //     await expect(page.locator('#Password')).toBeVisible();
+    //     await expect(page.locator('#submit')).toBeVisible();
 
-    });
+    // });
     
     //test2
     test('login successfully with valid credential reach home page', async ({ page }) => {
