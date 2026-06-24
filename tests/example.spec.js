@@ -19,3 +19,4 @@ test('get started link', async ({ page }) => {
 });
 const logout
 const hi there
+console.log(logout)
