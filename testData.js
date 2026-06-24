@@ -1,6 +1,6 @@
 const testData = {
   validUser: {
-    username: "milka123",
+    username: "test123",
     password: "Test@123"
   },
   invalidUser: {
