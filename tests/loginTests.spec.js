@@ -23,4 +23,13 @@ test.describe('Login page tests',() => {
         await expect(page).toHaveURL(/logged-in-successfully/);
         await expect(page.locator('h1')).toContainText('Logged In Successfully');
     });
+
+    //test3
+    test('login fails with invalid credentials', async ({ page }) => {
+        await page.locator('#username').fill('wrongUser');
+        await page.locator('#password').fill('wrongPass');
+        await page.locator('#submit').click();
+
+        await expect(page.locator('#error')).toBeVisible();
+    });
 } );
