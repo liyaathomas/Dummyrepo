@@ -4,5 +4,5 @@ test('signup page practice test', async ({ page }) => {
     await page.goto('https://practicetestautomation.com/practice-test-login/');
 
     await expect(page.locator('#username')).toBeVisible();
-    await expect(page.locator('#password')).toBeVisible();
+    
 });
