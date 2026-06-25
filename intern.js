@@ -1,13 +1,15 @@
-<<<<<<< HEAD
-console.log("Name: Elizabath Helen Felix");
+console.log("Name: Liyaa Elizabeth Thomas");
+console.log("Age: 25");
+console.log("Place: Pathanamthitta");
+console.log("Name: Sonit");
+console.log("Age: 22");
+console.log("Place: Kochi");
+console.log("Name: Anson");
 console.log("Age: 23");
-console.log("Place: Ernakulam");
-=======
-console.log("Name: Amruth K Ciby");
-console.log("Age: 23");
-console.log("Place: Kottayam");
-
-console.log("Name: Abha");
+console.log("Place: Edappally");
+console.log("Name: Ashkar M N");
 console.log("Age: 22");
 console.log("Place: Kottayam");
->>>>>>> d94880e133da7071f619bc9ee8f2f49354f3f585
+console.log("Name: Lenin D Siby");
+console.log("Age: 23");
+console.log("Place: Ernakulam");
