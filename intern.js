@@ -31,3 +31,6 @@ console.log("Place: Malappuram");
 console.log("Name: Rudra Sudheesh");
 console.log("Age: 21");
 console.log("Place: Angamaly");
+console.log("Name: Elizabath Helen Felix");
+console.log("Age: 23");
+console.log("Place: Ernakulam");
