@@ -1,0 +1,1 @@
+console.log("\nHello, this is a dummy file for testing purposes.");
