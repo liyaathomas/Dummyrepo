@@ -9,7 +9,7 @@ console.log("Age: 23");
 console.log("Place: Edappally");
 console.log("Name: Ashkar M N");
 console.log("Age: 22");
-console.log("Place: Kottayam");
+console.log("Place: Kottayam") ;
 console.log("Name: Lenin D Siby");
 console.log("Age: 23");
 console.log("Place: Ernakulam");
