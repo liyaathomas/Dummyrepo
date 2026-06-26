@@ -18,18 +18,9 @@ jobs:
         node-version: 20
     
     - name: Install dependencies
-      run: npm ci
+      run: npm install
 
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+    - name: Run JavaScript 
+      run: node intern.js
 
-    - name: Run Playwright tests
-      run: npx playwright test intern.js
-
-    - name: Upload Playwright Report
-      if: always() 
-      uses: actions/upload-artifact@v4
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 2
+    
