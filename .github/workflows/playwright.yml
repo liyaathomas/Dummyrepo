@@ -17,7 +17,7 @@ jobs:
       run : npm ci
     # - name: Install Playwright Broswers
     #   run: npx playwright install --with-deps
-    -name: Run js text
+    name: Run js text
     run: node intern.js
     # - uses : actions/upload-artifact@v4
     #   if: ${{ !cancelled() }}
