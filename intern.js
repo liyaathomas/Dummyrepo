@@ -21,5 +21,5 @@ console.log("Age: 23");
 console.log("Place: Ernakulam");
 console.log("Name: Abha");
 console.log("Age: 22");
-console.log("Place: Kottayam");
+console.log("Place: Kottayam  ");
 console.log("hello abha") ;
