@@ -1,9 +1,9 @@
 name: Playwright test
 on:
   push:
-    branches: [main,master]
+    branches: abha
   pull_request:
-    branches: [main,master]
+    branches: abha
 jobs:
   test:
     timeout-minutes: 60
