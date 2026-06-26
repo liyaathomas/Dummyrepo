@@ -23,10 +23,4 @@ jobs:
     - name: Run JavaScript 
       run: node intern.js
 
-    - name: Upload Report
-      uses: actions/upload-artifact@v4
-      with:
-        name: js-report
-        path: output.txt
-
     
