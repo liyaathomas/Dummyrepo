@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on : ubuntu-latest
     steps:
-      name : actions/checkout@v4
+      uses : actions/checkout@v4
       uses : actions/setup-node@v4
       with : 
         node-version: lts/*
@@ -17,8 +17,8 @@ jobs:
       run : npm ci
     # - name: Install Playwright Broswers
     #   run: npx playwright install --with-deps
-    name: Run js text
-    run: node intern.js
+      name: Run js text
+      run: node intern.js
     # - uses : actions/upload-artifact@v4
     #   if: ${{ !cancelled() }}
     #   with:
